@@ -9,10 +9,10 @@ window.SITE_CONFIG = {
   // The name shown at the top of your site. A nickname or made-up forecaster
   // name is fine and recommended. Do not put your real name, email, photo,
   // or anything else that identifies you on this site.
-  forecaster_name: "Iniye Atiegha",
+  forecaster_name: "theory tester",
 
   // One short line under the name (optional).
-  tagline: "Fundementals + Generic Polling",
+  tagline: "",
 
   // A plain-language description of YOUR model, in your own words. Each line in
   // quotes is one paragraph, followed by a comma. Two or three short paragraphs:
@@ -25,8 +25,8 @@ window.SITE_CONFIG = {
   //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, income and the midterm penalty.",
   //   "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections.",
   method: [
-    "",
-    ""
+    "A fundementals + polling model. This pooled model was my attempt to incorperate a mix of election theory disscussed in class with modern election trends. the model predicts Democratic vote share for both House and Senate Races using the national enviroment, district partisanship, spending, when the election is occurring,and a mulititude of  incumbency factors.",
+    "Uncertainty is found through a combination of a shared national error and race specific error. It is then simulated over 10,000 elections to provide an 80% prediction interval and an overall chance of the Democratic or Republican party winning the majority. "
   ],
 
   // Your data files. Leave these alone unless you renamed your files.
